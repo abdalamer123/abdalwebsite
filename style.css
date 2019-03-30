@@ -1,21 +1,78 @@
-p{
+body{
+	background-color: pink;
+	background-image:url(https://steamusercontent-a.akamaihd.net/ugc/242461718868646572/2F042E99F7CFF6CAF701E13990866330504AA657/);
+    background-repeat : no-repeat;
+    background-size: cover; 
 
-text-size:3em;
-font-style:sans-serif;
+	text-size:3em;
+	font-style:sans-serif;
+	color: pink;
+ 
+
+
 }
+
+p{font-size:20 }
+li{font-size:20 }
+
+
 
 #Aboutme{
-	color: red;
-
+	color: pink;
+    
+}
+html {
+  scroll-behavior: smooth;
 }
 
 
-body{
-	background-color: pink
+.header {
+  background-color: #f1f1f1;
+  padding: 30px;
+  text-align: center;
 }
 
-p4{
-
-
-
+#navbar {
+  overflow: hidden;
+  background-color: #333;
+  text-align: center;
 }
+
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#navbar a:hover {
+  background-color: pink;
+  color: black;
+}
+
+#navbar a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+#about {
+  text-shadow: #4CAF50
+}
+.mySlides {display:none;}
+
