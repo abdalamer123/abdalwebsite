@@ -10,7 +10,9 @@ function myFunction() {
   } else {
     navbar.classList.remove("sticky");
   }
-} 
+
+  $(document).ready(){
+
 
 
 
